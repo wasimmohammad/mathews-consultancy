@@ -13,13 +13,6 @@ export function Hero() {
   return (
     <section id="hero" aria-label="Introduction to Mathews Consultancy and Mathews Consulting">
       <Container className="pt-12 pb-16 text-center">
-        <div className="mx-auto mb-6 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50/80 px-4 py-1.5 text-xs font-semibold text-blue-700 shadow-xs sm:text-sm">
-          <span className="h-2 w-2 rounded-full bg-blue-600" aria-hidden="true" />
-          <span>Mathews Consultancy &amp; Mathews Consulting</span>
-          <span className="text-blue-300">•</span>
-          <span>US · UK · India Advisory</span>
-        </div>
-
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
           Accounting and Finance{' '}
           <span className="relative whitespace-nowrap text-blue-600">
